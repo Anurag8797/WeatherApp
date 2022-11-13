@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!-- left side div -->
+                <div class="col-md-12 col-12 main_header_left align-items-center">
+                    <figure class="errImg">
+                        <img src="images/404.png" alt="aboutMe" class="img-fluid" title="AllAboutMe">
+                    </figure>
+                    <h1>{{errorMsg}}</h1>
+                    <p>Relax We Are Here To Help You ✌</p>
+                    <a href="/"><button>Go Back</button></a>
+                </div>
+                <!-- right side div -->
+
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- footer section -->
+    {{>footer}}
+
+  </body>
+</html>
